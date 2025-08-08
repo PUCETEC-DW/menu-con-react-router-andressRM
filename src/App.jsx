@@ -1,7 +1,7 @@
 
 import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar' // Menú
 
-// Importacion de  las páginas que creadas
 import Home from './pages/Home'
 import About from './pages/About'
 import Dashboard from './pages/Dashboard'
@@ -10,6 +10,8 @@ import Settings from './pages/Settings'
 function App() {
   return (
     <>
+      <Navbar /> {/* Menú siempre visible */}
+
       {/* Definimos las rutas principales */}
       <Routes>
         <Route path="/" element={<Home />} />           {/* Página principal */}
