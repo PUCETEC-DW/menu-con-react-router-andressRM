@@ -14,10 +14,10 @@ function App() {
 
       {/* Definimos las rutas principales */}
       <Routes>
-        <Route path="/" element={<Home />} />           {/* Página principal */}
-        <Route path="/about" element={<About />} />     {/* Sobre nosotros */}
-        <Route path="/dashboard" element={<Dashboard />} /> {/* Dashboard vacío */}
-        <Route path="/settings" element={<Settings />} />   {/* Configuración vacía */}
+        <Route path="/" element={<Home />} />          
+        <Route path="/about" element={<About />} />     
+        <Route path="/dashboard" element={<Dashboard />} /> 
+        <Route path="/settings" element={<Settings />} />   
       </Routes>
     </>
   )

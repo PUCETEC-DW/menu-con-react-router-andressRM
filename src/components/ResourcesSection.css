@@ -1,20 +1,25 @@
 .resources-section {
   background: #111;
   min-height: calc(100vh - 80px);
-  display: flex;                 
-  align-items: center;           
-  justify-content: center;       /* centro horizontal */
-  padding: 1rem;
-  color: white;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+
+  width: 200%;  /* 🔹 Ocupa todo el ancho */
 }
+
 
 .resources-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
-  max-width: 1000px;
-  width: 100%;
+
+  
+  max-width: 1080px; 
+  margin: 0 auto; /* centrado horizontal */
 }
+
 
 
 

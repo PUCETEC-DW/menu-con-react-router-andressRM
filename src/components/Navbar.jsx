@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="navbar-container">
         {/* Logo */}
         <div className="logo">
-          <Link to="/">DARK UI</Link>
+          <Link to="/">EJERCICO MENÚ</Link>
         </div>
 
         {/* Menú principal */}
